@@ -1,0 +1,57 @@
+html, body{
+  height:100%;
+  font-family:Arial;
+  margin:0 auto;
+  background-color:rgb(255, 221, 181);
+}
+a{
+  text-decoration:none;
+  color:blue;
+}
+.container{
+  display:flex;
+}
+.column{
+  flex:3;
+  flex-direction:row;
+  justify-content:center;
+  align-items:center;
+}
+nav a{
+  flex:1;
+  text-align:center;
+  padding:10px;
+  background-color:rgb(56, 232, 151);
+  color:black
+}
+nav a:hover{
+  background-color:rgb(247, 161, 62);
+  color:black;
+  transition:1s;
+}
+#banner{
+  align-items:center;  
+  background-color:rgb(56, 232, 151);
+  color:black;
+  padding:20px;
+  font-family:"Monaco";
+}
+#body{
+  padding:5px;
+}
+#links{
+  padding:50px;
+}
+#links *{
+  border: 1px solid black;
+  margin:5px;
+  border-radius:10px;
+  align-items:center
+}
+#footer{
+  background-color:rgb(237, 237, 66);
+  color:black;
+  padding:20px;
+  justify-content: center;
+  align-items:center;
+}
